@@ -85,11 +85,7 @@ class HomeFragment : Fragment() {
         }
 
         binding.goiExplore.setOnClickListener {
-            val uri: Uri =
-                Uri.parse("https://www.disabilityaffairs.gov.in/content/") // missing 'http://' will cause crashed
-
-            val intent = Intent(Intent.ACTION_VIEW, uri)
-            startActivity(intent)
+            findNavController().navigate(R.id.action_homeFragment_to_ministryOfDisabledWebViewFragment)
         }
     }
 }

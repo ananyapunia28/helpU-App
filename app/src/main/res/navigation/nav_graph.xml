@@ -16,52 +16,136 @@
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_homeFragment_to_actionsFragment"
-            app:destination="@id/actionsFragment" />
+            app:destination="@id/actionsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_helpDeskFragment"
-            app:destination="@id/helpDeskFragment" />
+            app:destination="@id/helpDeskFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_textWriterFragment"
-            app:destination="@id/textWriterFragment" />
+            app:destination="@id/textWriterFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_wantToHelpFragment"
-            app:destination="@id/wantToHelpFragment" />
+            app:destination="@id/wantToHelpFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_ministryOfDisabledWebViewFragment"
-            app:destination="@id/ministryOfDisabledWebViewFragment" />
+            app:destination="@id/ministryOfDisabledWebViewFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_restroFragment"
-            app:destination="@id/restroFragment" />
+            app:destination="@id/restroFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_hospitalsFragment"
-            app:destination="@id/hospitalsFragment" />
+            app:destination="@id/hospitalsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_mallsFragment"
-            app:destination="@id/mallsFragment" />
+            app:destination="@id/mallsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_toiletsFragment"
-            app:destination="@id/toiletsFragment" />
+            app:destination="@id/toiletsFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_libraryFragment"
-            app:destination="@id/libraryFragment" />
+            app:destination="@id/libraryFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_banksFragment"
-            app:destination="@id/banksFragment" />
+            app:destination="@id/banksFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_helperFragment"
-            app:destination="@id/helperFragment" />
+            app:destination="@id/helperFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_wheelchairFragment"
-            app:destination="@id/wheelchairFragment" />
+            app:destination="@id/wheelchairFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_crutchFragment"
-            app:destination="@id/crutchFragment" />
+            app:destination="@id/crutchFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_fragment_maps"
-            app:destination="@id/fragment_maps" />
+            app:destination="@id/fragment_maps"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
         <action
             android:id="@+id/action_homeFragment_to_fragment_add_help"
-            app:destination="@id/fragment_add_help" />
+            app:destination="@id/fragment_add_help"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            />
     </fragment>
     <fragment
         android:id="@+id/helpDeskFragment"
