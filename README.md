@@ -1,4 +1,8 @@
-# HelpU-Empowering the Ones who NEVER GIVE UP
+<p align="left">
+	<h2 align="left"> HelpU </h2>
+	<h4 align="left"> Empowering the Ones who NEVER GIVE UP <h4>
+</p>
+
 ### Main Features of the App are:
 #### 1. The Disabled person can access local service providers like Banks, Malls, Toilets etc.Service Provider registration will be done via HelpU Website.Once the service provider is registered, the services will be list up in our HelpU app.
 #### 2. Added Public Transport Booking Feature. For Example- if we take the usage of Cab Booking, the user will enter the initial and final locations and automatically he/she will be redirected to Ola/Uber app and then they have to just book the cab.
